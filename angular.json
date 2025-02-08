@@ -54,6 +54,18 @@
               "optimization": false,
               "extractLicenses": false,
               "sourceMap": true
+            },
+            "pt":{
+              "localize": ["pt"],
+              "outputPath": "dist/angularPersonalLearn-pt"
+            },
+            "fr":{
+              "localize": ["fr"],
+              "outputPath": "dist/angularPersonalLearn-fr"
+            },
+            "en":{
+              "localize": ["en"],
+              "outputPath": "dist/angularPersonalLearn-en"
             }
           },
           "defaultConfiguration": "production"
@@ -95,6 +107,17 @@
             "scripts": []
           }
         }
+      },
+      "i18n": {
+       "sourceLocale": "pt",
+       "locales": {
+         "en": {
+           "translation": "./src/assets/i18n/en.json"
+         },
+         "fr": {
+           "translation": "./src/assets/i18n/fr.json"
+         }
+       } 
       }
     }
   },
