@@ -14,16 +14,16 @@ describe('AppComponent', () => {
     expect(app).toBeTruthy();
   });
 
-  it(`should have the 'translationService' title`, () => {
+  it(`should have the 'angularPersonalLearn' title`, () => {
     const fixture = TestBed.createComponent(AppComponent);
     const app = fixture.componentInstance;
-    expect(app.title).toEqual('translationService');
+    expect(app.title).toEqual('angularPersonalLearn');
   });
 
   it('should render title', () => {
     const fixture = TestBed.createComponent(AppComponent);
     fixture.detectChanges();
     const compiled = fixture.nativeElement as HTMLElement;
-    expect(compiled.querySelector('h1')?.textContent).toContain('Hello, translationService');
+    expect(compiled.querySelector('h1')?.textContent).toContain('Hello, angularPersonalLearn');
   });
 });
