@@ -1,0 +1,9 @@
+{
+  "BEMVINDO": "Bienvenue",
+  "TITULO": "Apprentissage personnel d'Angular",
+  "BOTOES":{
+    "PORTUGUES": "Portugais",	
+    "FRANCES": "Français",	
+    "INGLES": "Anglais"
+  }
+}

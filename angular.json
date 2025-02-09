@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "angularPersonalLearn": {
+    "angularAprendizagensPessoais": {
       "projectType": "application",
       "schematics": {
         "@schematics/angular:component": {
@@ -17,7 +17,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:application",
           "options": {
-            "outputPath": "dist/angular-personal-learn",
+            "outputPath": "dist/angular-aprendizagens-pessoais",
             "index": "src/index.html",
             "browser": "src/main.ts",
             "polyfills": [
@@ -54,6 +54,18 @@
               "optimization": false,
               "extractLicenses": false,
               "sourceMap": true
+            },
+            "pt":{
+              "localize": ["pt"],
+              "outputPath": "dist/angularAprendizagensPessoais-pt"
+            },
+            "fr":{
+              "localize": ["fr"],
+              "outputPath": "dist/angularAprendizagensPessoais-fr"
+            },
+            "en":{
+              "localize": ["en"],
+              "outputPath": "dist/angularAprendizagensPessoais-en"
             }
           },
           "defaultConfiguration": "production"
@@ -62,10 +74,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "buildTarget": "angularPersonalLearn:build:production"
+              "buildTarget": "angularAprendizagensPessoais:build:production"
             },
             "development": {
-              "buildTarget": "angularPersonalLearn:build:development"
+              "buildTarget": "angularAprendizagensPessoais:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -73,7 +85,7 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "buildTarget": "angularPersonalLearn:build"
+            "buildTarget": "angularAprendizagensPessoais:build"
           }
         },
         "test": {
@@ -95,6 +107,17 @@
             "scripts": []
           }
         }
+      },
+      "i18n": {
+       "sourceLocale": "pt",
+       "locales": {
+         "en": {
+           "translation": "./src/assets/i18n/en.json"
+         },
+         "fr": {
+           "translation": "./src/assets/i18n/fr.json"
+         }
+       } 
       }
     }
   },

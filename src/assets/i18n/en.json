@@ -1,0 +1,9 @@
+{
+  "BEMVINDO": "Wellcome",
+  "TITULO": "Angular personal learning",
+  "BOTOES":{
+    "PORTUGUES": "portuguese",	
+    "FRANCES": "French",	
+    "INGLES": "English"
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "BEMVINDO": "Bem vindo",
+  "TITULO": "Angular aprendizagem pessoal",
+  "BOTOES":{
+    "PORTUGUES": "Portugues",	
+    "FRANCES": "Frances",	
+    "INGLES": "Ingles"
+  }
+}
