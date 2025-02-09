@@ -11,7 +11,6 @@ import { TranslateModule } from '@ngx-translate/core';
   styleUrl: './app.component.scss'
 })
 export class AppComponent {
-  titulo = 'Angular aprendizagem pessoal';
   constructor(private traducaoServico: TranslateService){}
 
   mudarIdioma(Idioma:string){
