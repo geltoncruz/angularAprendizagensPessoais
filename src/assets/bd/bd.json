@@ -1,0 +1,10 @@
+{
+  "usuarios": [
+    {
+      "id": "1",
+      "email": "gelton.cruz@gmail.com",
+      "password": "123456",
+      "token": "fake-jwt-token-12345"
+    }
+    ]
+}

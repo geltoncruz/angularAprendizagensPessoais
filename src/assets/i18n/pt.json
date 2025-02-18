@@ -5,5 +5,12 @@
     "PORTUGUES": "Portugues",	
     "FRANCES": "Frances",	
     "INGLES": "Ingles"
+  },
+  "LOGIN": {
+    "CABECALHO": "Teste de Autenticação JWT",
+    "CONECTAR": "Connectar",
+    "DESCONECTAR": "Desconectar",
+    "ESTADO": "Estado: "
   }
+
 }

@@ -8,6 +8,12 @@
     <button (click)="mudarIdioma('fr')">{{"BOTOES.FRANCES" | translate }}</button>
     <button (click)="mudarIdioma('en')">{{"BOTOES.INGLES" | translate }}</button>
   </div>
+  <div class="autenticacao">
+    <h1>{{"LOGIN.CABECALHO" | translate}}</h1>
+    <button (click)="conectar()">🔑 {{"LOGIN.CONECTAR" | translate }}</button>
+    <button (click)="desconectar()">🚪 {{"LOGIN.DESCONECTAR" | translate}}</button>
+    <p>{{"LOGIN.ESTADO" | translate }} {{ estaAutenticado ? '✅ Logado' : '❌ Deslogado' }}</p>
+  </div>
 </main>
 
 <router-outlet />
